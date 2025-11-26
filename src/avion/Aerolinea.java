@@ -1,5 +1,5 @@
-
 package avion;
+
 import java.util.Scanner.*;
 
 public class Aerolinea {
@@ -21,6 +21,5 @@ public class Aerolinea {
     public void setAvion(String Avion) {
         this.Avion = Avion;
     }
-    
     
 }

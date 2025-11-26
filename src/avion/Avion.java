@@ -1,6 +1,5 @@
-
-
 package avion;
+
 import java.util.Scanner.*;
 
 
