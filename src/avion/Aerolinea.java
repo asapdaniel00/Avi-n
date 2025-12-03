@@ -8,7 +8,7 @@ public class Aerolinea {
     private String Avion;
     public String Ruta;
     public String Nombre;
-
+    
     public Aerolinea(String Canti, String Av, String Ruta) {
         this.Cantidad = Canti;
         this.Avion = Av;

@@ -22,8 +22,8 @@ public class MenuUsuario {
         while (!volverAlPrincipal) {
             System.out.println("\n=== Opciones de Usuario ===");
             System.out.println("1. Visualizar vuelos disponibles");
-            System.out.println("2. Visualizar sillar disponibles");
-            System.out.println("4. Salir");
+            System.out.println("2. Visualizar sillas disponibles");
+            System.out.println("3. Salir");
             System.out.print("Opción: ");
 
             opcion = scanner.nextInt();
