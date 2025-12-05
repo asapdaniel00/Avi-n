@@ -1,0 +1,31 @@
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+Aviones.txt
+El ID de su avion es4575y la cantidad de sillas es12
+El ID de su avion es98565y la cantidad de sillas es12
+El ID de su avion es5157y la cantidad de sillas es12
+El ID de su avion es2523y la cantidad de sillas es22
+El ID de su avion es26523y la cantidad de sillas es12
+El ID de su avion es5255y la cantidad de sillas es12
+El ID de su avion es5821y la cantidad de sillas es2
+El ID de su avion es515642y la cantidad de sillas es12
+El ID de su avion es164215y la cantidad de sillas es12
+6565|12
+1543|12
+1654|1511
+6545|3
+254|12
+255|124

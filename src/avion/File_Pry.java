@@ -17,6 +17,9 @@ public class File_Pry {
     String Ruta_completa;
     String Seperador;
 
+  
+    public File_Pry() { //AGREGADO CONSTRUCTOR VACIO CR
+    }
     //Metodo constructor que recibre R: La ruta donde quisiera crear el archivo, El nombre de la carpeta si quiero que queden dentro de una carpeta
     public File_Pry(String R, String C, String S){
         this.Ruta = R;
@@ -82,6 +85,7 @@ public class File_Pry {
     }
     
     //Método para escribir al final del archivo
+    
     public void Escribir_Archivo(String Informacion){       
         System.out.println("DATOS: "+Informacion);
 	//Ahora se sobreescribirá el archivo con toda la información de los datos.
@@ -92,7 +96,7 @@ public class File_Pry {
 	    Escribe.write(Informacion+"\n");
 	    Escribe.close();
 
-        }catch(IOException e) {e.printStackTrace(System.out);}	//modificado el (system.out) de {e.ptintStackTracecr
+        }catch(IOException e) {e.printStackTrace(System.out);}	//modificado el (system.out) de {e.ptintStackTrace para mostrar en pantalla cr
 	
     }
     /*
@@ -163,7 +167,9 @@ public class File_Pry {
                 
             }
             Leer_Archivo.close(); // Cerramos el archivo
-	}catch(IOException e) {System.out.println("EXCEPTION: "+e);}
+	}catch(IOException e) {                            System.out.println("2. Retirar");
+                            System.out.println("2. Retirar");
+}
 
 	return Linea;
     }

@@ -11,7 +11,9 @@ public class MainPrincipal {
 
     Scanner scanner = new Scanner(System.in);
     MenuAdministrador menuAdmin = new MenuAdministrador();
-    MenuUsuario menuUser = new MenuUsuario();
+    GestorAviones gestor = new GestorAviones();
+    MenuUsuario menuUser = new MenuUsuario(gestor);
+
 
     public void iniciarApp() {
         boolean salir = false;
@@ -30,15 +32,13 @@ public class MainPrincipal {
             switch (opcion) {
                 case 1:
                     menuAdmin.mostrarMenu();
+
                     break;
                 case 2:
                     System.out.println("-> Accediendo al Menú de Usuario");
-                    
-                    System.out.println("Elija la opcion que requiere consultar");// agregado para entrar a las opciones de ususario cr
-                        switch (opcion){
-                            case 1:
-                                menuUser.mostrarMenu();
-                        }
+                                         
+                     menuUser.mostrarMenu();
+                   
                     break;
                 case 3:
                     System.out.println("¡Gracias por usar la aplicación! Finalizando...");

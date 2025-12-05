@@ -17,7 +17,7 @@ public class Main_Proyecto {
     public static void main(String[] args) {
         MainPrincipal menu = new MainPrincipal();
         menu.iniciarApp();
-
+        
     }
     
-}
+}     

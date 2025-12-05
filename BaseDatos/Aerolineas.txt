@@ -1,3 +1,1 @@
-
-LATAM;00
-Avianca;01
+aja;1

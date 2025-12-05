@@ -14,8 +14,10 @@ public class MenuAdministrador {
 
     Scanner scanner = new Scanner(System.in);
     private GestorAerolineas gestorAerolineas = new GestorAerolineas();
-    private GestorRutas gestorRutas = new GestorRutas(gestorAerolineas); // Pasamos GestorAerolineas al constructor
-
+    private GestorRutas gestorRutas = new GestorRutas(gestorAerolineas);
+    private GestorAviones gestorAviones = new GestorAviones();// Pasamos GestorAerolineas al constructor
+    private GestorAviones ModificacionAviones = new GestorAviones();
+    
     public void mostrarMenu() {
         boolean volverAlPrincipal = false;
         int opcion = 0;
@@ -40,9 +42,10 @@ public class MenuAdministrador {
                     System.out.println("-> Gestionando Rutas...");
                     break; 
                 case 3:
-                    // gestorAviones.mostrarMenu();
+                    gestorAviones.mostrarMenu();
                     System.out.println("-> Gestionando Aviones...");
                     break;
+
                 case 4:
                     System.out.println("-> Volviendo al Menú Principal...");
                     volverAlPrincipal = true;
